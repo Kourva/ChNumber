@@ -42,6 +42,8 @@ class ChNumber(builtins.object)
  |  __weakref__
  |      list of weak references to the object (if defined)
 
+
+# You need to put this module to your working directory
 ```
 
 > This is my first module! Hope you enjoy :)
