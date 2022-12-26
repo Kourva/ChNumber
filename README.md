@@ -3,7 +3,7 @@ Python module that formats Persian number to Latin
 
 # clone
 ```bash
-git clone https://github.com/Izolabela/ChNumber
+git clone https://github.com/Kourva/ChNumber
 ```
 
 
