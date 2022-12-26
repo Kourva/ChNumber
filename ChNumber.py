@@ -1,5 +1,5 @@
 ## Python module that formats Persian number to Latin
-## Github: https://github.com/izolabela/ChNumber
+## Github: https://github.com/Kourva/ChNumber
 
 
 class ChNumber:
