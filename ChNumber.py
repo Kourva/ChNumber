@@ -1,13 +1,18 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8-*-
+
 ## Python module that formats Persian number to Latin
 ## Github: https://github.com/Kourva/ChNumber
 
+# Standard library imports
+from typing import Dict
 
 class ChNumber:
     """
     :: Converts Farsi numbers to Latin"
     """
 
-    def format(number):
+    def format(number: str) -> str:
         """
         :: format method:
              -> Usage:
@@ -17,7 +22,8 @@ class ChNumber:
              -> Result:
                     "09146579814"
         """
-        data = {
+        # Pair of numbers
+        data: Dict = {
             "۱": "1",
             "۲": "2",
             "۳": "3",
@@ -29,7 +35,7 @@ class ChNumber:
             "۹": "9",
             "۰": "0",
         }
-        temp = number
+        temp: str = number
         for digit in temp:
             if digit in data:
                 temp = temp.replace(digit, data[digit])
