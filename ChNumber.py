@@ -2,7 +2,7 @@
 # -*- coding: utf-8-*-
 
 ## Python module that formats Persian number to Latin
-## Github: https://github.com/kozyol/ChNumber
+## Github: https://github.com/Kourva/ChNumber
 
 # Standard library imports
 from typing import Dict
